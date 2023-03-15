@@ -1,0 +1,39 @@
+{
+    "venta": [
+        {
+            "id": "426e9d",
+            "fecha": "14-03-2023",
+            "productos": [
+                {
+                    "id": "0003",
+                    "nombre": "Cartera corazon",
+                    "precio": "25000",
+                    "stock": "100",
+                    "imagen": "https://img.ltwebstatic.com/images3_pi/2023/01/09/167324999403ae7cf6047059bd2f034f547c5e5acf_thumbnail_600x.webp",
+                    "descripcion": "Nuestra adorable cartera en forma de corazón es el complemento perfecto para cualquier look romántico. Hecha con materiales suaves y resistentes, esta cartera cuenta con suficiente espacio para guardar tus pertenencias esenciales. Además, su diseño único y elegante es un gran detalle para cualquier atuendo",
+                    "categoria": "cartera",
+                    "fecha_creacion": "12/12/2022",
+                    "cantidad": 5
+                }
+            ],
+            "total": 125000
+        },
+        {
+            "id": "88357e",
+            "fecha": "14-03-2023",
+            "productos": [
+                {
+                    "id": "9446dd",
+                    "nombre": "jeans",
+                    "precio": "250000",
+                    "stock": "100",
+                    "imagen": "https://img.ltwebstatic.com/images3_pi/2022/01/13/1642047594ec5e31b1d513617579500ec88e37cd66_thumbnail_600x.webp",
+                    "descripcion": "Nuestros jeans son la elección perfecta para aquellos que buscan comodidad y durabilidad en una prenda de vestir. Hechos con materiales de alta calidad, estos jeans son resistentes y cómodos. Su diseño clásico y versátil los hace perfectos para cualquier ocasión.",
+                    "categoria": "asdasdasd",
+                    "cantidad": 17
+                }
+            ],
+            "total": 4250000
+        }
+    ]
+}

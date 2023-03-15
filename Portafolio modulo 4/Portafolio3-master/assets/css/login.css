@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+/*colores*/
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fondo: #f3f3f3;
+    --aqua: #5292c6;
+    --pronom: #4C4C4C;
+    --cards: #d0d0d0;
+    --des: #b0b0b0;
+    --blanco: #ffffff;
+    --plminto: #5f5f5f;
+    --verde: #819d7d;
+}
+
+body {
+    background-color: var(--blanco);
+}
+
+.main {
+    background-color: var(--fondo);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 4px 4px 15px 4px var(--aqua);
+}
+
+.registro {
+    text-align: center;
+
+    box-shadow: 4px 4px 15px 4px var(--aqua);
+    display: flex;
+    flex-direction: column;
+}
+
+.login,
+.registro,
+input,
+button {
+    border: 1px solid #c6c6c6;
+    ;
+    padding: 2px 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: var(--blanco);
+}
+
+h2 {
+    color: var(--aqua);
+}
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+    color: var(--pronom);
+    margin: 2px 2px 10px 10px;
+}
+
+input:hover {
+    color: var(--aqua);
+    border: 1px var(--aqua) solid;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+button:hover {
+    color: var(--fondo);
+    background-color: var(--aqua);
+    border: 1px var(--aqua) solid;
+    border-radius: 10px;
+    font-weight: bold;
+}
